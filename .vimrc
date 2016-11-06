@@ -1,15 +1,4 @@
 "
-" Plugins
-"
-call plug#begin('~/.vim/plugged')
-Plug 'scrooloose/syntastic'
-Plug 'valloric/youcompleteme'
-Plug 'pangloss/vim-javascript'
-Plug 'nathanaelkane/vim-indent-guides'
-Plug 'raimondi/delimitmate'
-call plug#end()
-
-"
 " General
 "
 filetype plugin on
@@ -62,16 +51,33 @@ nnoremap <Leader>9 :9b<CR>
 nnoremap <Leader>0 :10b<CR>
 
 "
+" Plugins
+"
+if isdirectory($HOME . '/.vim/plugged')
+    call plug#begin('~/.vim/plugged')
+        Plug 'scrooloose/syntastic'
+        Plug 'valloric/youcompleteme'
+        Plug 'pangloss/vim-javascript'
+        Plug 'nathanaelkane/vim-indent-guides'
+        Plug 'raimondi/delimitmate'
+    call plug#end()
+endif
+
+"
 " Syntastic
 "
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
+if isdirectory($HOME . '/.vim/plugged/syntastic')
+    let g:syntastic_always_populate_loc_list = 1
+    let g:syntastic_auto_loc_list = 1
+    let g:syntastic_check_on_open = 1
+    let g:syntastic_check_on_wq = 0
+endif
 
 "
 " Indent Guides
 "
-let g:indent_guides_enable_on_vim_startup = 1
-let g:indent_guides_start_level = 2
-let g:indent_guides_guide_size = 1
+if isdirectory($HOME . '/.vim/plugged/vim-indent-guides')
+    let g:indent_guides_enable_on_vim_startup = 1
+    let g:indent_guides_start_level = 2
+    let g:indent_guides_guide_size = 1
+endif
