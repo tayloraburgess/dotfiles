@@ -64,7 +64,6 @@ if isdirectory($HOME . '/.vim/plugged')
         Plug 'scrooloose/syntastic'
         Plug 'valloric/youcompleteme'
         Plug 'pangloss/vim-javascript'
-        Plug 'nathanaelkane/vim-indent-guides'
         Plug 'raimondi/delimitmate'
     call plug#end()
 endif
@@ -77,13 +76,4 @@ if isdirectory($HOME . '/.vim/plugged/syntastic')
     let g:syntastic_auto_loc_list = 1
     let g:syntastic_check_on_open = 1
     let g:syntastic_check_on_wq = 0
-endif
-
-"
-" Indent Guides
-"
-if isdirectory($HOME . '/.vim/plugged/vim-indent-guides')
-    let g:indent_guides_enable_on_vim_startup = 1
-    let g:indent_guides_start_level = 2
-    let g:indent_guides_guide_size = 1
 endif
