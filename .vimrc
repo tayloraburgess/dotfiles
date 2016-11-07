@@ -3,9 +3,8 @@
 "
 filetype plugin on
 syntax on
-syntax enable
-colorscheme default
-set background=dark
+colorscheme monokai
+set t_Co=256
 set number
 set showcmd
 set nocompatible
