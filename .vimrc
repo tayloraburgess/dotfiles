@@ -3,7 +3,14 @@
 "
 filetype plugin on
 syntax on
-colorscheme monokai
+
+if !empty(glob('~/.vim/colors/monokai.vim'))
+    colorscheme monokai
+else
+    colorscheme default
+    set background=dark
+endif
+
 set t_Co=256
 set number
 set showcmd
@@ -59,7 +66,7 @@ nnoremap <Leader>0 :10b<CR>
 "
 " Plugins
 "
-if isdirectory($HOME . '/.vim/plugged')
+if !empty(glob('~/.vim/autoload/plug.vim'))
     call plug#begin('~/.vim/plugged')
         Plug 'scrooloose/syntastic'
         Plug 'valloric/youcompleteme'
