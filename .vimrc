@@ -22,11 +22,17 @@ set incsearch
 set hlsearch
 set ignorecase
 set smartcase
-set shortmess=a
+
+"
+" Indent
+"
 set tabstop=4
 set shiftwidth=4
 set expandtab
 set autoindent
+if has ('autocmd')
+    filetype plugin indent on
+endif
 
 "
 " Insert Mode Cursor (iTerm2)

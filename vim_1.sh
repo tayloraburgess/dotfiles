@@ -7,6 +7,9 @@
 # Set DIR variable to this directory
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
+# Create link to filetype plugin directory
+ln -s "${DIR}/after" ~/.vim/after
+
 # Create link to Vim theme
 mkdir ~/.vim/colors
 ln -s "${DIR}/monokai.vim" ~/.vim/colors/monokai.vim
