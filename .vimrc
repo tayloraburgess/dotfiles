@@ -78,6 +78,7 @@ if !empty(glob('~/.vim/autoload/plug.vim'))
         Plug 'valloric/youcompleteme'
         Plug 'pangloss/vim-javascript'
         Plug 'raimondi/delimitmate'
+        Plug 'takac/vim-hardtime'
     call plug#end()
 endif
 
@@ -90,3 +91,8 @@ if isdirectory($HOME . '/.vim/plugged/syntastic')
     let g:syntastic_check_on_open = 1
     let g:syntastic_check_on_wq = 0
 endif
+
+"
+" Hardtime
+"
+let g:hardtime_default_on = 1
