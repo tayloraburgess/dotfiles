@@ -47,11 +47,6 @@ let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 set statusline=%02n:%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
 
 "
-" Insert Mappings
-"
-imap jk <Esc>
-
-"
 " Buffer Mappings
 "
 nnoremap <Leader>e :Explore<CR>
