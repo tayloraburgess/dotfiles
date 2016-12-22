@@ -12,3 +12,5 @@ ln -s "${DIR}/.bash_profile" ~/.bash_profile
 ln -s "${DIR}/.bashrc" ~/.bashrc
 ln -s "${DIR}/.vimrc" ~/.vimrc
 ln -s "${DIR}/.tern-config" ~/.tern-config
+mkdir ~/.hammerspoon
+ln -s "${DIR}/init.lua" ~/.hammerspoon/init.lua
