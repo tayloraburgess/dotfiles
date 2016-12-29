@@ -74,6 +74,7 @@ if !empty(glob('~/.vim/autoload/plug.vim'))
         Plug 'pangloss/vim-javascript'
         Plug 'raimondi/delimitmate'
         Plug 'takac/vim-hardtime'
+        Plug 'rizzatti/dash.vim'
     call plug#end()
 endif
 
