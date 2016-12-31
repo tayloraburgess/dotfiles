@@ -78,7 +78,7 @@ for idx,val in ipairs(unused) do
 end
 
 --
--- OS Bindings
+-- App/Space Switching
 --
 
 appFocus = function() fastKeyStroke({'cmd'}, 'tab') end
@@ -92,17 +92,6 @@ space7 = function() fastKeyStroke({'ctrl'}, '7') end
 space8 = function() fastKeyStroke({'ctrl'}, '8') end
 space9 = function() fastKeyStroke({'ctrl'}, '9') end
 expose = function() fastKeyStroke({'ctrl'}, 'up') end
-brightDown = function() fastSystemKeyStroke('BRIGHTNESS_DOWN') end
-brightUp = function() fastSystemKeyStroke('BRIGHTNESS_UP') end
-keyBrightUp = function() fastSystemKeyStroke('ILLUMINATION_UP') end
-keyBrightDown = function() fastSystemKeyStroke('ILLUMINATION_DOWN') end
-mediaBack = function() fastSystemKeyStroke('PREVIOUS') end
-mediaPlay = function() fastSystemKeyStroke('PLAY') end
-mediaForward = function() fastSystemKeyStroke('NEXT') end
-mute = function() fastSystemKeyStroke('MUTE') end
-volumeDown = function() fastSystemKeyStroke('SOUND_DOWN') end
-volumeUp = function() fastSystemKeyStroke('SOUND_UP') end
-power = function() fastSystemKeyStroke('POWER') end
 
 mode:bind('', 'tab', appFocus)
 mode:bind('', '1', space1)
@@ -115,17 +104,6 @@ mode:bind('', '7', space7)
 mode:bind('', '8', space8)
 mode:bind('', '9', space9)
 mode:bind('', '`', expose)
-mode:bind('cmd', '1', brightDown)
-mode:bind('cmd', '2', brightUp)
-mode:bind('cmd', '3', keyBrightDown)
-mode:bind('cmd', '4', keyBrightUp)
-mode:bind('cmd', '7', mediaBack)
-mode:bind('cmd', '8', mediaPlay)
-mode:bind('cmd', '9', mediaForward)
-mode:bind('cmd', '0', mute)
-mode:bind('cmd', '-', volumeDown)
-mode:bind('cmd', '=', volumeUp)
-mode:bind('cmd', 'delete', power)
 
 --
 -- Arrow Keys
@@ -135,11 +113,35 @@ left = function() fastKeyStroke({''}, 'left') end
 down = function() fastKeyStroke({''}, 'down') end
 up = function() fastKeyStroke({''}, 'up') end
 right = function() fastKeyStroke({''}, 'right') end
+ctrlLeft = function() fastKeyStroke({'ctrl'}, 'left') end
+ctrlDown = function() fastKeyStroke({'ctrl'}, 'down') end
+ctrlUp = function() fastKeyStroke({'ctrl'}, 'up') end
+ctrlRight = function() fastKeyStroke({'ctrl'}, 'right') end
+cmdLeft = function() fastKeyStroke({'cmd'}, 'left') end
+cmdDown = function() fastKeyStroke({'cmd'}, 'down') end
+cmdUp = function() fastKeyStroke({'cmd'}, 'up') end
+cmdRight = function() fastKeyStroke({'cmd'}, 'right') end
+altLeft = function() fastKeyStroke({'alt'}, 'left') end
+altDown = function() fastKeyStroke({'alt'}, 'down') end
+altUp = function() fastKeyStroke({'alt'}, 'up') end
+altRight = function() fastKeyStroke({'alt'}, 'right') end
 
 mode:bind('', 'h', left, nil, left)
 mode:bind('', 'j', down, nil, down)
 mode:bind('', 'k', up, nil, up)
 mode:bind('', 'l', right, nil, right)
+mode:bind('ctrl', 'h', ctrlLeft, nil, ctrlLeft)
+mode:bind('ctrl', 'j', ctrlDown, nil, ctrlDown)
+mode:bind('ctrl', 'k', ctrlUp, nil, ctrlUp)
+mode:bind('ctrl', 'l', ctrlRight, nil, ctrlRight)
+mode:bind('cmd', 'h', cmdLeft, nil, cmdLeft)
+mode:bind('cmd', 'j', cmdDown, nil, cmdDown)
+mode:bind('cmd', 'k', cmdUp, nil, cmdUp)
+mode:bind('cmd', 'l', cmdRight, nil, cmdRight)
+mode:bind('alt', 'h', altLeft, nil, altLeft)
+mode:bind('alt', 'j', altDown, nil, altDown)
+mode:bind('alt', 'k', altUp, nil, altUp)
+mode:bind('alt', 'l', altRight, nil, altRight)
 
 --
 -- Text Nav
