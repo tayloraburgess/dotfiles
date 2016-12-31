@@ -51,6 +51,12 @@ fastSystemKeyStroke = function(key)
 end
 
 --
+-- Universal Bindings
+--
+
+hs.hotkey.bind('ctrl', 'j', function() fastKeyStroke({''}, 'escape') end)
+
+--
 -- Create Mode
 --
 
