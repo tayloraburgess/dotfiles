@@ -75,6 +75,8 @@ if !empty(glob('~/.vim/autoload/plug.vim'))
         Plug 'raimondi/delimitmate'
         Plug 'takac/vim-hardtime'
         Plug 'rizzatti/dash.vim'
+        Plug 'mxw/vim-jsx'
+        Plug 'cakebaker/scss-syntax.vim'
     call plug#end()
 endif
 
