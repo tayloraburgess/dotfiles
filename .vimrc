@@ -69,7 +69,6 @@ nnoremap <Leader>0 :10b<CR>
 "
 if !empty(glob('~/.vim/autoload/plug.vim'))
     call plug#begin('~/.vim/plugged')
-        Plug 'scrooloose/syntastic'
         Plug 'valloric/youcompleteme'
         Plug 'pangloss/vim-javascript'
         Plug 'raimondi/delimitmate'
@@ -78,16 +77,6 @@ if !empty(glob('~/.vim/autoload/plug.vim'))
         Plug 'mxw/vim-jsx'
         Plug 'cakebaker/scss-syntax.vim'
     call plug#end()
-endif
-
-"
-" Syntastic
-"
-if isdirectory($HOME . '/.vim/plugged/syntastic')
-    let g:syntastic_always_populate_loc_list = 1
-    let g:syntastic_auto_loc_list = 1
-    let g:syntastic_check_on_open = 1
-    let g:syntastic_check_on_wq = 0
 endif
 
 "

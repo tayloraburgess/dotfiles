@@ -176,10 +176,10 @@ mode:bind('', 'u', undo)
 
 center = function() fastKeyStroke({'alt', 'cmd'}, 'c') end
 fullscreen = function() fastKeyStroke({'alt', 'cmd'}, 'f') end
-upperLeft = function() fastKeyStroke({'ctrl', 'cmd'}, 'left') end
-lowerLeft = function() fastKeyStroke({'ctrl', 'cmd', 'shift'}, 'left') end
-upperRight = function() fastKeyStroke({'ctrl', 'cmd'}, 'right') end
-lowerRight = function() fastKeyStroke({'ctrl', 'cmd', 'shift'}, 'right') end
+upperLeft = function() fastKeyStroke({'ctrl', 'cmd', 'shift'}, 'q') end
+lowerLeft = function() fastKeyStroke({'ctrl', 'cmd', 'shift'}, 'a') end
+upperRight = function() fastKeyStroke({'ctrl', 'cmd', 'shift'}, 'w') end
+lowerRight = function() fastKeyStroke({'ctrl', 'cmd', 'shift'}, 's') end
 leftHalf = function() fastKeyStroke({'alt', 'cmd'}, ',') end
 rightHalf = function() fastKeyStroke({'alt', 'cmd'}, '.') end
 topHalf = function() fastKeyStroke({'alt', 'cmd'}, 'up') end
