@@ -76,8 +76,16 @@ if !empty(glob('~/.vim/autoload/plug.vim'))
         Plug 'rizzatti/dash.vim'
         Plug 'mxw/vim-jsx'
         Plug 'cakebaker/scss-syntax.vim'
+        Plug 'elmcast/elm-vim'
     call plug#end()
 endif
+
+"
+" YouCompleteMe
+"
+let g:ycm_semantic_triggers = {
+    \ 'elm' : ['.'],
+    \}
 
 "
 " Hardtime
