@@ -81,6 +81,11 @@ if !empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 "
+" elm-vim
+"
+let g:elm_setup_keybindings = 0
+
+"
 " YouCompleteMe
 "
 let g:ycm_semantic_triggers = {
