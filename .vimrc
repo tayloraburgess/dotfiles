@@ -91,8 +91,3 @@ let g:elm_setup_keybindings = 0
 let g:ycm_semantic_triggers = {
     \ 'elm' : ['.'],
     \}
-
-"
-" Hardtime
-"
-let g:hardtime_default_on = 1
