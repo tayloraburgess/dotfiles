@@ -77,6 +77,7 @@ if !empty(glob('~/.vim/autoload/plug.vim'))
         Plug 'mxw/vim-jsx'
         Plug 'cakebaker/scss-syntax.vim'
         Plug 'elmcast/elm-vim'
+        Plug 'mustache/vim-mustache-handlebars'
     call plug#end()
 endif
 
