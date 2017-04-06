@@ -32,3 +32,4 @@ eval "$(rbenv init -)"
 alias py=python3
 alias spostgres="postgres -D /usr/local/var/postgres"
 alias sredis="redis-server /usr/local/etc/redis.conf"
+alias vimclean="find ./ -type f -name \"\.*sw[klmnop]\" -delete"
