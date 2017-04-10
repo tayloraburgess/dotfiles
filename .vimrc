@@ -78,6 +78,7 @@ if !empty(glob('~/.vim/autoload/plug.vim'))
         Plug 'cakebaker/scss-syntax.vim'
         Plug 'elmcast/elm-vim'
         Plug 'mustache/vim-mustache-handlebars'
+        Plug 'kien/ctrlp.vim'
     call plug#end()
 endif
 
@@ -92,3 +93,8 @@ let g:elm_setup_keybindings = 0
 let g:ycm_semantic_triggers = {
     \ 'elm' : ['.'],
     \}
+
+"
+" CtrlP
+"
+let g:ctrlp_working_path_mode = 'r'

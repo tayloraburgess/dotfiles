@@ -54,7 +54,7 @@ end
 -- Universal Bindings
 --
 
-hs.hotkey.bind('ctrl', 'j', function() fastKeyStroke({''}, 'escape') end)
+hs.hotkey.bind({'ctrl'}, 'l', function() fastKeyStroke({''}, 'escape') end)
 
 --
 -- Create Mode
