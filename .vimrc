@@ -98,3 +98,10 @@ let g:ycm_semantic_triggers = {
 " CtrlP
 "
 let g:ctrlp_working_path_mode = 'r'
+
+"
+" Autocmds
+"
+if has("autocmd")
+    autocmd BufRead * normal zR
+endif
