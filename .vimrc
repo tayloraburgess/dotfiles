@@ -88,6 +88,11 @@ endif
 let g:elm_setup_keybindings = 0
 
 "
+" vim-jsx
+"
+let g:jsx_ext_required = 0
+
+"
 " YouCompleteMe
 "
 let g:ycm_semantic_triggers = {
