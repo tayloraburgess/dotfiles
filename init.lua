@@ -44,12 +44,6 @@ fastKeyStroke = function(modifiers, character)
   event.newKeyEvent(modifiers, string.lower(character), false):post()
 end
 
-fastSystemKeyStroke = function(key)
-  local event = require("hs.eventtap").event
-  event.newSystemKeyEvent(key, true):post()
-  event.newSystemKeyEvent(key, false):post()
-end
-
 --
 -- Universal Bindings
 --
