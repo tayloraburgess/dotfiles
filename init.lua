@@ -156,13 +156,13 @@ mode:bind('shift', '4', lineEnd)
 --
 
 delete = function() fastKeyStroke({''}, 'forwarddelete') end
-copy = function() fastKeyStroke({'cmd'}, 'c') end
+yank = function() fastKeyStroke({'cmd'}, 'c') end
 paste = function() fastKeyStroke({'cmd'}, 'v') end
 undo = function() fastKeyStroke({'cmd'}, 'z') end
 mode:bind('', 'x', delete, nil, delete)
-mode:bind('', 'y', copy)
-mode:bind('shift', 'p', paste)
-mode:bind('', 'u', undo)
+mode:bind('', 'y', yank)
+mode:bind('', 'p', paste)
+mode:bind('', 'u', undo, nil, undo)
 
 --
 -- Spectacle
