@@ -35,13 +35,6 @@ if has ('autocmd')
 endif
 
 "
-" Insert Mode Cursor (iTerm2)
-" 
-let &t_SI = "\<Esc>]50;CursorShape=1\x7"
-let &t_SR = "\<Esc>]50;CursorShape=2\x7"
-let &t_EI = "\<Esc>]50;CursorShape=0\x7"
-
-"
 " Statusline
 "
 set statusline=%02n:%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
