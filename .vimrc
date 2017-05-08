@@ -68,6 +68,7 @@ if !empty(glob('~/.vim/autoload/plug.vim'))
         Plug 'mustache/vim-mustache-handlebars'
         Plug 'kien/ctrlp.vim'
         Plug 'vim-airline/vim-airline'
+        Plug 'vim-airline/vim-airline-themes'
         Plug 'tpope/vim-fugitive'
         Plug 'bling/vim-bufferline'
     call plug#end()
@@ -99,6 +100,7 @@ let g:ctrlp_working_path_mode = 'r'
 " Airline
 "
 let g:airline#extensions#bufferline#enabled = 1
+let g:airline_theme='distinguished'
 
 "
 " Autocmds
