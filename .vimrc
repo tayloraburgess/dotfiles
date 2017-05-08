@@ -35,11 +35,6 @@ if has ('autocmd')
 endif
 
 "
-" Statusline
-"
-set statusline=%02n:%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
-
-"
 " Buffer Mappings
 "
 nnoremap <Leader>e :Explore<CR>
@@ -72,6 +67,9 @@ if !empty(glob('~/.vim/autoload/plug.vim'))
         Plug 'elmcast/elm-vim'
         Plug 'mustache/vim-mustache-handlebars'
         Plug 'kien/ctrlp.vim'
+        Plug 'vim-airline/vim-airline'
+        Plug 'tpope/vim-fugitive'
+        Plug 'bling/vim-bufferline'
     call plug#end()
 endif
 
@@ -96,6 +94,11 @@ let g:ycm_semantic_triggers = {
 " CtrlP
 "
 let g:ctrlp_working_path_mode = 'r'
+
+"
+" Airline
+"
+let g:airline#extensions#bufferline#enabled = 1
 
 "
 " Autocmds
