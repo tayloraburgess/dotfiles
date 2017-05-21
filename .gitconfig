@@ -1,0 +1,6 @@
+[credential]
+	helper = osxkeychain
+[user]
+	email = tayloraburgess@gmail.com
+[core]
+	excludesfile = ~/.gitignore_global
