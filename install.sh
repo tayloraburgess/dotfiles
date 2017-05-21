@@ -19,4 +19,6 @@ ln -s "${DIR}/init.lua" ~/.hammerspoon/init.lua
 
 if [ "$(uname)" == "Darwin" ]; then
     defaults write -g KeyRepeat -float 1.1
+    defaults write com.apple.Dock autohide-delay -float 5.0
+    killall Dock
 fi
