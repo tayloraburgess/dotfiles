@@ -49,6 +49,7 @@ end
 --
 
 hs.hotkey.bind({'ctrl'}, 'l', function() fastKeyStroke({''}, 'escape') end)
+hs.hotkey.bind({}, 'end', function() fastKeyStroke({''}, 'f18') end)
 
 --
 -- Create Mode
@@ -61,6 +62,7 @@ mode = hs.hotkey.modal.new('', hyper)
 --
 
 mode:bind('', hyper, function() mode:exit() end)
+mode:bind('', 'end', function() mode:exit() end)
 mode:bind('', 'i', function() mode:exit() end)
 
 --
