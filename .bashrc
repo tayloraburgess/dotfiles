@@ -1,7 +1,7 @@
 #
 # Display
 #
-export PS1="\W [TAB] $ "
+export PS1="≠ \W $ "
 
 #
 # Brew
@@ -33,3 +33,7 @@ alias py=python3
 alias spostgres="postgres -D /usr/local/var/postgres"
 alias sredis="redis-server /usr/local/etc/redis.conf"
 alias vimclean="find ./ -type f -name \"\.*sw[klmnop]\" -delete"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
