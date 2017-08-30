@@ -57,19 +57,19 @@ nnoremap <Leader>0 :10b<CR>
 "
 if !empty(glob('~/.vim/autoload/plug.vim'))
     call plug#begin('~/.vim/plugged')
-        Plug 'valloric/youcompleteme'
-        Plug 'pangloss/vim-javascript'
-        Plug 'raimondi/delimitmate'
-        Plug 'takac/vim-hardtime'
-        Plug 'rizzatti/dash.vim'
-        Plug 'mxw/vim-jsx'
-        Plug 'cakebaker/scss-syntax.vim'
-        Plug 'elmcast/elm-vim'
-        Plug 'mustache/vim-mustache-handlebars'
-        Plug 'kien/ctrlp.vim'
-        Plug 'vim-airline/vim-airline'
-        Plug 'vim-airline/vim-airline-themes'
-        Plug 'tpope/vim-fugitive'
+    Plug 'valloric/youcompleteme'
+    Plug 'pangloss/vim-javascript'
+    Plug 'raimondi/delimitmate'
+    Plug 'takac/vim-hardtime'
+    Plug 'rizzatti/dash.vim'
+    Plug 'mxw/vim-jsx'
+    Plug 'cakebaker/scss-syntax.vim'
+    Plug 'elmcast/elm-vim'
+    Plug 'mustache/vim-mustache-handlebars'
+    Plug 'kien/ctrlp.vim'
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
+    Plug 'tpope/vim-fugitive'
     call plug#end()
 endif
 
@@ -87,8 +87,8 @@ let g:jsx_ext_required = 0
 " YouCompleteMe
 "
 let g:ycm_semantic_triggers = {
-    \ 'elm' : ['.'],
-    \}
+            \ 'elm' : ['.'],
+            \}
 
 "
 " CtrlP
@@ -105,4 +105,6 @@ let g:airline_theme='distinguished'
 "
 if has("autocmd")
     autocmd BufRead * normal zR
+    autocmd BufNewFile,BufRead *.tsx set filetype=javascript.jsx
+    autocmd BufNewFile,BufRead *.ts set filetype=javascript
 endif
