@@ -48,7 +48,6 @@ end
 -- Universal Bindings
 --
 
-hs.hotkey.bind({'ctrl'}, 'l', function() fastKeyStroke({''}, 'escape') end)
 hs.hotkey.bind({}, 'end', function() fastKeyStroke({''}, 'f18') end)
 
 --
