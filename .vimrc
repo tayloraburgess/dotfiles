@@ -73,6 +73,8 @@ if !empty(glob('~/.vim/autoload/plug.vim'))
     call plug#end()
 endif
 
+runtime macros/matchit.vim
+
 "
 " elm-vim
 "
