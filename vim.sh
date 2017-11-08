@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #
-# Vim Setup 1
+# Vim Setup
 #
 
 # Set DIR variable to this directory
@@ -17,4 +17,10 @@ ln -s "${DIR}/monokai.vim" ~/.vim/colors/monokai.vim
 # Install Vim Plug
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-# In Vim, run :PlugInstall, and then run vim_2.sh
+# Install Vim plugins via Vim Plug
+
+vim +PlugInstall +qall
+
+# Compile YouCompleteMe
+
+~/.vim/plugged/YouCompleteMe/install.py --clang-completer --tern-completer
