@@ -60,7 +60,6 @@ if !empty(glob('~/.vim/autoload/plug.vim'))
     Plug 'valloric/youcompleteme'
     Plug 'pangloss/vim-javascript'
     Plug 'raimondi/delimitmate'
-    Plug 'rizzatti/dash.vim'
     Plug 'mxw/vim-jsx'
     Plug 'cakebaker/scss-syntax.vim'
     Plug 'elmcast/elm-vim'
@@ -105,6 +104,4 @@ let g:airline_theme='distinguished'
 "
 if has("autocmd")
     autocmd BufRead * normal zR
-    autocmd BufNewFile,BufRead *.tsx set filetype=javascript.jsx
-    autocmd BufNewFile,BufRead *.ts set filetype=javascript
 endif

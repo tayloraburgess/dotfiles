@@ -17,11 +17,6 @@ PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
 export PATH
 
 #
-# Ruby
-#
-eval "$(rbenv init -)"
-
-#
 # Aliases
 #
 alias py=python3
