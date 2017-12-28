@@ -20,14 +20,13 @@ brew install \
     python3 \
     vim
 brew cask install \
+    alfred \
     spectacle \
     karabiner-elements \
     hammerspoon \
     iterm2 \
     google-chrome \
-    simplenote \
     spotify \
-    alfred \
     google-backup-and-sync \
     lastpass
 
