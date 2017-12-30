@@ -12,9 +12,11 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # Install Homebrew packages
 brew install \
+    bash-completion \
     cmake \
     docker \
     elm \
+    git \
     node \
     postgresql \
     python3 \
