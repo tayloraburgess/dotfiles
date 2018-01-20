@@ -4,13 +4,6 @@
 filetype plugin on
 syntax on
 
-if !empty(glob('~/.vim/colors/monokai.vim'))
-    colorscheme monokai
-else
-    colorscheme default
-    set background=dark
-endif
-
 set t_Co=256
 set number
 set showcmd
@@ -67,10 +60,14 @@ if !empty(glob('~/.vim/autoload/plug.vim'))
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     Plug 'tpope/vim-fugitive'
+    Plug 'morhetz/gruvbox'
     call plug#end()
 endif
 
 runtime macros/matchit.vim
+
+colorscheme gruvbox
+set termguicolors
 
 "
 " elm-vim
