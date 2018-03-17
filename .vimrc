@@ -61,6 +61,7 @@ if !empty(glob('~/.vim/autoload/plug.vim'))
     Plug 'vim-airline/vim-airline-themes'
     Plug 'tpope/vim-fugitive'
     Plug 'morhetz/gruvbox'
+    Plug 'prettier/vim-prettier'
     call plug#end()
 endif
 

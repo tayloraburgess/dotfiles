@@ -33,7 +33,7 @@ brew cask install \
     lastpass
 
 # Install npm packages
-npm install -g n
+npm install -g n, prettier
 sudo mkdir /usr/local/n
 sudo chown -R $(whoami) /usr/local/n
 
