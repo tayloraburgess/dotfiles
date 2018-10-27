@@ -24,8 +24,6 @@ brew install \
 brew cask install \
     alfred \
     spectacle \
-    karabiner-elements \
-    hammerspoon \
     iterm2 \
     google-chrome \
     spotify \
@@ -49,5 +47,3 @@ ln -s "${DIR}/.vimrc" ~/.vimrc
 ln -s "${DIR}/.gitconfig" ~/.gitconfig
 ln -s "${DIR}/.gitignore_global" ~/.gitignore_global
 ln -s "${DIR}/.tern-config" ~/.tern-config
-mkdir ~/.hammerspoon
-ln -s "${DIR}/init.lua" ~/.hammerspoon/init.lua
