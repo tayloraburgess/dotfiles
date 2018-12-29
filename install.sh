@@ -30,9 +30,9 @@ brew cask install \
     firefox \
     spotify \
     google-backup-and-sync \
-    focusrite-control \
+    homebrew/cask-drivers/focusrite-control \
     signal \
-    logitech-options
+    homebrew/cask-drivers/logitech-options 
 
 # Install npm packages
 npm install -g n, prettier
