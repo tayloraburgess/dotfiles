@@ -30,7 +30,6 @@ brew cask install \
     firefox \
     spotify \
     google-backup-and-sync \
-    lastpass \
     focusrite-control \
     signal \
     logitech-options
