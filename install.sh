@@ -20,15 +20,20 @@ brew install \
     node \
     postgresql \
     python3 \
-    vim
+    vim \
+    the_silver_searcher
 brew cask install \
     alfred \
     spectacle \
     iterm2 \
     google-chrome \
+    firefox \
     spotify \
     google-backup-and-sync \
-    lastpass
+    lastpass \
+    focusrite-control \
+    signal \
+    logitech-options
 
 # Install npm packages
 npm install -g n, prettier

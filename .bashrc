@@ -13,8 +13,7 @@ fi
 #
 # Python
 #
-PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
-export PATH
+export PATH=/usr/local/opt/python/libexec/bin:$PATH
 
 #
 # Aliases
@@ -23,3 +22,8 @@ alias py=python3
 alias spostgres="postgres -D /usr/local/var/postgres"
 alias sredis="redis-server /usr/local/etc/redis.conf"
 alias vimclean="find ./ -type f -name \"\.*sw[klmnop]\" -delete"
+
+#
+# Etc
+#
+HISTTIMEFORMAT="%d/%m/%y %T "

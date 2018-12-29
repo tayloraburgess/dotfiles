@@ -62,6 +62,7 @@ if !empty(glob('~/.vim/autoload/plug.vim'))
     Plug 'tpope/vim-fugitive'
     Plug 'morhetz/gruvbox'
     Plug 'prettier/vim-prettier'
+    Plug 'mileszs/ack.vim'
     call plug#end()
 endif
 
@@ -69,6 +70,13 @@ runtime macros/matchit.vim
 
 colorscheme gruvbox
 set termguicolors
+
+"
+" ack
+"
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
+endif
 
 "
 " elm-vim
@@ -91,6 +99,7 @@ let g:ycm_semantic_triggers = {
 " CtrlP
 "
 let g:ctrlp_working_path_mode = 'r'
+let g:ctrlp_custom_ignore = 'node_modules/DS_STORE/git'
 
 "
 " Airline
