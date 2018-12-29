@@ -35,7 +35,7 @@ brew cask install \
     homebrew/cask-drivers/logitech-options 
 
 # Install npm packages
-npm install -g n, prettier
+npm i -g n prettier
 sudo mkdir /usr/local/n
 sudo chown -R $(whoami) /usr/local/n
 
