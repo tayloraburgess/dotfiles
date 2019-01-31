@@ -4,6 +4,8 @@
 # Vim Setup
 #
 
+mkdir ~/.vim
+
 # Set DIR variable to this directory
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
