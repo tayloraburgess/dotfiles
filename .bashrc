@@ -20,3 +20,4 @@ export PATH=/usr/local/opt/python/libexec/bin:$PATH
 #
 HISTTIMEFORMAT="%d/%m/%y %T "
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+alias dc="docker-compose"
