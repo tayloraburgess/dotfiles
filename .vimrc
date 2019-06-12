@@ -16,6 +16,7 @@ set hlsearch
 set ignorecase
 set smartcase
 set directory^=$HOME/.vim/swap//
+set wildignore+=*/node_modules/*,*/.git/*
 
 "
 " Indent
@@ -42,7 +43,7 @@ if !empty(glob('~/.vim/autoload/plug.vim'))
     Plug 'pangloss/vim-javascript'
     Plug 'raimondi/delimitmate'
     Plug 'mxw/vim-jsx'
-    Plug 'kien/ctrlp.vim'
+    Plug 'ctrlpvim/ctrlp.vim'
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     Plug 'tpope/vim-fugitive'
@@ -85,7 +86,6 @@ let g:ycm_semantic_triggers = {
 " CtrlP
 "
 let g:ctrlp_working_path_mode = 'r'
-let g:ctrlp_custom_ignore = 'node_modules/DS_STORE/git'
 
 "
 " Airline
