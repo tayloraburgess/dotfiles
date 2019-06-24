@@ -50,6 +50,7 @@ if !empty(glob('~/.vim/autoload/plug.vim'))
     Plug 'morhetz/gruvbox'
     Plug 'prettier/vim-prettier'
     Plug 'mileszs/ack.vim'
+    Plug 'leafgarland/typescript-vim'
     call plug#end()
 endif
 
