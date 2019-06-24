@@ -1,9 +1,5 @@
 #!/bin/bash
 
-#
-# General Install Script
-#
-
 # Set DIR variable to this directory
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
@@ -11,33 +7,27 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Install Homebrew packages
-brew install \
-    bash-completion \
-    cmake \
-    docker \
-    elm \
-    git \
-    node \
-    postgresql \
-    python3 \
-    vim \
-    the_silver_searcher
-brew cask install \
-    alfred \
-    spectacle \
-    iterm2 \
-    google-chrome \
-    firefox \
-    spotify \
-    google-backup-and-sync \
-    homebrew/cask-drivers/focusrite-control \
-    signal \
-    homebrew/cask-drivers/logitech-options 
+brew install bash-completion
+brew install docker
+brew install git
+brew install node
+brew install python3
+brew install vim
+brew install the_silver_searcher
 
-# Install npm packages
-npm i -g n prettier
-sudo mkdir /usr/local/n
-sudo chown -R $(whoami) /usr/local/n
+brew cask install alfred
+brew cask install spectacle
+brew cask install iterm2
+brew cask install google-chrome
+brew cask install firefox
+brew cask install spotify
+brew cask install google-backup-and-sync
+brew cask install homebrew/cask-drivers/focusrite-control
+brew cask install signal
+brew cask install homebrew/cask-drivers/logitech-options
+
+# Install nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 
 # Defaults
 defaults write NSGlobalDomain KeyRepeat -int 1

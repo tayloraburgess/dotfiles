@@ -21,7 +21,3 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 # Install Vim plugins via Vim Plug
 
 vim +PlugInstall +qall
-
-# Compile YouCompleteMe
-
-~/.vim/plugged/YouCompleteMe/install.py --clang-completer --tern-completer

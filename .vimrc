@@ -39,9 +39,7 @@ nnoremap <Leader>e :Explore<CR>
 "
 if !empty(glob('~/.vim/autoload/plug.vim'))
     call plug#begin('~/.vim/plugged')
-    Plug 'valloric/youcompleteme'
     Plug 'pangloss/vim-javascript'
-    Plug 'raimondi/delimitmate'
     Plug 'mxw/vim-jsx'
     Plug 'ctrlpvim/ctrlp.vim'
     Plug 'vim-airline/vim-airline'
@@ -67,21 +65,9 @@ if executable('ag')
 endif
 
 "
-" elm-vim
-"
-let g:elm_setup_keybindings = 0
-
-"
 " vim-jsx
 "
 let g:jsx_ext_required = 0
-
-"
-" YouCompleteMe
-"
-let g:ycm_semantic_triggers = {
-            \ 'elm' : ['.'],
-            \}
 
 "
 " CtrlP
