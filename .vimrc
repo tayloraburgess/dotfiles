@@ -30,7 +30,7 @@ if has ('autocmd')
 endif
 
 "
-" Buffer Mappings
+" Leader 
 "
 nnoremap <Leader>e :Explore<CR>
 
@@ -46,7 +46,6 @@ if !empty(glob('~/.vim/autoload/plug.vim'))
     Plug 'vim-airline/vim-airline-themes'
     Plug 'tpope/vim-fugitive'
     Plug 'morhetz/gruvbox'
-    Plug 'prettier/vim-prettier'
     Plug 'mileszs/ack.vim'
     Plug 'leafgarland/typescript-vim'
     call plug#end()
