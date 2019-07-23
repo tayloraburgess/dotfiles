@@ -8,7 +8,6 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # Install Homebrew packages
 brew install bash-completion
-brew install docker
 brew install git
 brew install node
 brew install python3
