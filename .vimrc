@@ -30,30 +30,20 @@ if has ('autocmd')
 endif
 
 "
-" Leader 
-"
-nnoremap <Leader>e :Explore<CR>
-
-"
 " Plugins
 "
 if !empty(glob('~/.vim/autoload/plug.vim'))
     call plug#begin('~/.vim/plugged')
-    Plug 'pangloss/vim-javascript'
-    Plug 'mxw/vim-jsx'
     Plug 'ctrlpvim/ctrlp.vim'
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     Plug 'tpope/vim-fugitive'
-    Plug 'morhetz/gruvbox'
     Plug 'mileszs/ack.vim'
-    Plug 'leafgarland/typescript-vim'
     call plug#end()
 endif
 
 runtime macros/matchit.vim
 
-colorscheme gruvbox
 set termguicolors
 
 "
@@ -62,11 +52,6 @@ set termguicolors
 if executable('ag')
   let g:ackprg = 'ag --vimgrep --hidden --ignore .git'
 endif
-
-"
-" vim-jsx
-"
-let g:jsx_ext_required = 0
 
 "
 " CtrlP
