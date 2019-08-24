@@ -9,10 +9,9 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 # Install Homebrew packages
 brew install bash-completion
 brew install git
-brew install node
-brew install python3
 brew install vim
 brew install the_silver_searcher
+brew install pyenv
 
 brew cask install alfred
 brew cask install iterm2
