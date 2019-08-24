@@ -12,6 +12,7 @@ brew install git
 brew install vim
 brew install the_silver_searcher
 brew install pyenv
+brew install pyenv-virtualenv
 
 brew cask install alfred
 brew cask install iterm2
