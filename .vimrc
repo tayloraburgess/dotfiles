@@ -62,10 +62,3 @@ let g:ctrlp_working_path_mode = 'r'
 " Airline
 "
 let g:airline_theme='distinguished'
-
-"
-" Autocmds
-"
-if has("autocmd")
-    autocmd BufRead * normal zR
-endif
