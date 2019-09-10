@@ -17,6 +17,7 @@ set ignorecase
 set smartcase
 set directory^=$HOME/.vim/swap//
 set wildignore+=*/node_modules/*,*/.git/*
+colorscheme desert
 
 "
 " Indent
