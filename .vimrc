@@ -15,9 +15,15 @@ set incsearch
 set hlsearch
 set ignorecase
 set smartcase
+set termguicolors
 set directory^=$HOME/.vim/swap//
 set wildignore+=*/node_modules/*,*/.git/*
 colorscheme desert
+
+runtime macros/matchit.vim
+
+au BufEnter,BufRead *.ts,*.tsx set filetype=javascript
+
 
 "
 " Indent
@@ -43,9 +49,6 @@ if !empty(glob('~/.vim/autoload/plug.vim'))
     call plug#end()
 endif
 
-runtime macros/matchit.vim
-
-set termguicolors
 
 "
 " ack
