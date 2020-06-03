@@ -30,3 +30,4 @@ export NVM_DIR="$HOME/.nvm"
 #
 HISTTIMEFORMAT="%d/%m/%y %T "
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+export BASH_SILENCE_DEPRECATION_WARNING=1
