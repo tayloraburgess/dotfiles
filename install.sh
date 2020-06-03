@@ -29,7 +29,8 @@ brew cask install homebrew/cask-drivers/logitech-options
 brew cask install elektron-overbridge
 brew cask install elektron-transfer
 brew cask install arq
-brew cash install zoomus
+brew cask install zoomus
+brew cask install authy
 
 # Install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
