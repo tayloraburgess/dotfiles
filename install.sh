@@ -32,6 +32,9 @@ brew cask install arq
 brew cask install zoomus
 brew cask install authy
 brew cask install sysex-librarian
+brew cask install ableton-live-suite
+brew cask install docker
+brew cask install vcv-rack
 
 # Install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
