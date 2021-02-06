@@ -7,7 +7,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 chsh -s /bin/bash
 
 # Install Homebrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 # Install Homebrew packages
 brew install bash-completion
@@ -18,23 +18,23 @@ brew install pyenv
 brew install pyenv-virtualenv
 brew install sox
 
-brew cask install alfred
-brew cask install iterm2
-brew cask install google-chrome
-brew cask install firefox
-brew cask install spotify
-brew cask install google-backup-and-sync
-brew cask install homebrew/cask-drivers/focusrite-control
-brew cask install signal
-brew cask install homebrew/cask-drivers/logitech-options
-brew cask install elektron-transfer
-brew cask install arq
-brew cask install zoomus
-brew cask install authy
-brew cask install sysex-librarian
-brew cask install ableton-live-suite
-brew cask install docker
-brew cask install vcv-rack
+brew install --cask alfred
+brew install --cask iterm2
+brew install --cask google-chrome
+brew install --cask firefox
+brew install --cask spotify
+brew install --cask google-backup-and-sync
+brew install --cask homebrew/cask-drivers/focusrite-control
+brew install --cask signal
+brew install --cask homebrew/cask-drivers/logitech-options
+brew install --cask elektron-transfer
+brew install --cask arq
+brew install --cask zoomus
+brew install --cask authy
+brew install --cask sysex-librarian
+brew install --cask ableton-live-suite
+brew install --cask docker
+brew install --cask vcv-rack
 
 # Install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
