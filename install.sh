@@ -35,6 +35,7 @@ brew install --cask sysex-librarian
 brew install --cask ableton-live-suite
 brew install --cask docker
 brew install --cask vcv-rack
+brew install --cask rectangle
 
 # Install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
