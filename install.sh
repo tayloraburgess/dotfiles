@@ -27,15 +27,17 @@ brew install --cask google-backup-and-sync
 brew install --cask homebrew/cask-drivers/focusrite-control
 brew install --cask signal
 brew install --cask homebrew/cask-drivers/logitech-options
-brew install --cask elektron-transfer
 brew install --cask arq
 brew install --cask zoomus
 brew install --cask authy
-brew install --cask sysex-librarian
 brew install --cask ableton-live-suite
 brew install --cask docker
 brew install --cask rectangle
 brew install --cask rekordbox
+brew install --cask loopback
+brew install --cask discord
+brew install --cask ilok-license-manager
+brew install --cask native-access
 
 # Install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash

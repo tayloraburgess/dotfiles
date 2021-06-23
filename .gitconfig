@@ -1,8 +1,10 @@
 [credential]
-	helper = osxkeychain
+    helper = osxkeychain
 [user]
     name = Taylor Burgess
-	email = tayloraburgess@gmail.com
+    email = tayloraburgess@gmail.com
 [core]
     autocrlf = false
-	excludesfile = ~/.gitignore_global
+    excludesfile = ~/.gitignore_global
+[pull]
+    rebase = false
