@@ -23,7 +23,6 @@ brew install --cask iterm2
 brew install --cask google-chrome
 brew install --cask firefox
 brew install --cask spotify
-brew install --cask google-backup-and-sync
 brew install --cask homebrew/cask-drivers/focusrite-control
 brew install --cask signal
 brew install --cask homebrew/cask-drivers/logitech-options
