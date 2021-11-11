@@ -38,6 +38,7 @@ brew install --cask ilok-license-manager
 brew install --cask native-access
 brew install --cask calibre
 brew install --cask karabiner-elements
+brew install --cask loopback
 
 # Install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
