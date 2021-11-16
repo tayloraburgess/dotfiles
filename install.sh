@@ -35,9 +35,7 @@ brew install --cask rectangle
 brew install --cask rekordbox
 brew install --cask discord
 brew install --cask ilok-license-manager
-brew install --cask native-access
 brew install --cask calibre
-brew install --cask karabiner-elements
 brew install --cask loopback
 
 # Install nvm
