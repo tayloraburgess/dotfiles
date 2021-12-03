@@ -1,15 +1,15 @@
 #!/bin/bash
 
-# Set DIR variable to this directory
+# set DIR variable to this directory
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-# Set bash as the default shell
+# set bash as the default shell
 chsh -s /bin/bash
 
-# Install Homebrew
+# install homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-# Install Homebrew packages
+# install homebrew packages
 brew install bash-completion
 brew install git
 brew install vim
@@ -17,6 +17,7 @@ brew install the_silver_searcher
 brew install pyenv
 brew install pyenv-virtualenv
 brew install sox
+brew install qmk/qmk/qmk
 
 brew install --cask alfred
 brew install --cask iterm2
@@ -37,17 +38,16 @@ brew install --cask discord
 brew install --cask ilok-license-manager
 brew install --cask calibre
 brew install --cask loopback
-brew install --cask qmk-toolbox
 
-# Install nvm
+# install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 
-# Defaults
+# defaults
 defaults write NSGlobalDomain KeyRepeat -int 1
 defaults write NSGlobalDomain InitialKeyRepeat -int 12
 defaults write com.apple.Dock autohide-delay -float 5.0
 
-# Create links to dotfiles
+# create links to dotfiles
 ln -s "${DIR}/.bash_profile" ~/.bash_profile
 ln -s "${DIR}/.bashrc" ~/.bashrc
 ln -s "${DIR}/.vimrc" ~/.vimrc
