@@ -21,7 +21,6 @@ brew install qmk/qmk/qmk
 
 brew install --cask alfred
 brew install --cask iterm2
-brew install --cask google-chrome
 brew install --cask firefox
 brew install --cask spotify
 brew install --cask homebrew/cask-drivers/focusrite-control
@@ -30,8 +29,6 @@ brew install --cask homebrew/cask-drivers/logitech-options
 brew install --cask arq
 brew install --cask zoomus
 brew install --cask authy
-brew install --cask ableton-live-suite
-brew install --cask docker
 brew install --cask rectangle
 brew install --cask rekordbox
 brew install --cask discord
