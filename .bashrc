@@ -4,6 +4,12 @@
 export PS1="≠ \W $ "
 
 #
+# brew
+#
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+
+#
 # Bash Completion
 #
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
