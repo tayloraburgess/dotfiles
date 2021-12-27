@@ -27,7 +27,6 @@ brew install --cask homebrew/cask-drivers/focusrite-control
 brew install --cask signal
 brew install --cask homebrew/cask-drivers/logitech-options
 brew install --cask arq
-brew install --cask zoomus
 brew install --cask authy
 brew install --cask rectangle
 brew install --cask rekordbox
@@ -37,8 +36,13 @@ brew install --cask calibre
 brew install --cask loopback
 brew install --cask elektron-overbridge
 brew install --cask elektron-transfer
-brew install --cask bitwig-studio
 brew install --cask nordvpn
+brew install --cask ableton-live-suite
+brew install --cask izotope-product-portal
+brew install --cask vcv-rack
+brew install --cask little-snitch
+brew install --cask micro-snitch
+brew install --cask zsa-wally
 
 # install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash

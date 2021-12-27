@@ -1,6 +1,6 @@
 # dotfiles
 
-These are mostly notes-to-self, so make of them what you will.
+These are notes-to-self, so make of 'em what you will
 
 # preonic
 
