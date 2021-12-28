@@ -46,7 +46,6 @@ brew install --cask vcv-rack
 brew install --cask little-snitch
 brew install --cask micro-snitch
 brew install --cask zsa-wally
-brew install --cask lastpass
 
 # install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
