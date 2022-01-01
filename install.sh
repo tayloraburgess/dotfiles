@@ -42,7 +42,6 @@ brew install --cask elektron-transfer
 brew install --cask nordvpn
 brew install --cask ableton-live-suite
 brew install --cask izotope-product-portal
-brew install --cask vcv-rack
 brew install --cask little-snitch
 brew install --cask micro-snitch
 brew install --cask zsa-wally
