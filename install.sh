@@ -26,7 +26,6 @@ brew install --cask alfred
 brew install --cask iterm2
 brew install --cask firefox
 brew install --cask spotify
-brew install --cask homebrew/cask-drivers/focusrite-control
 brew install --cask signal
 brew install --cask homebrew/cask-drivers/logitech-options
 brew install --cask arq
@@ -40,11 +39,11 @@ brew install --cask loopback
 brew install --cask elektron-overbridge
 brew install --cask elektron-transfer
 brew install --cask nordvpn
-brew install --cask ableton-live-suite
 brew install --cask izotope-product-portal
 brew install --cask little-snitch
 brew install --cask micro-snitch
 brew install --cask zsa-wally
+brew install --cask bitwig-studio
 
 # install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
