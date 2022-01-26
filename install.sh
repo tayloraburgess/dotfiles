@@ -35,14 +35,13 @@ brew install --cask discord
 brew install --cask ilok-license-manager
 brew install --cask calibre
 brew install --cask loopback
-brew install --cask elektron-overbridge
-brew install --cask elektron-transfer
 brew install --cask nordvpn
 brew install --cask izotope-product-portal
 brew install --cask little-snitch
 brew install --cask micro-snitch
 brew install --cask zsa-wally
 brew install --cask bitwig-studio
+brew install --cask logitech-options
 
 # install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
