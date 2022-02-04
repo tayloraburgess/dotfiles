@@ -20,12 +20,9 @@ brew install the_silver_searcher
 brew install pyenv
 brew install pyenv-virtualenv
 brew install sox
-brew install qmk/qmk/qmk
 
-brew install --cask alfred
 brew install --cask iterm2
 brew install --cask firefox
-brew install --cask spotify
 brew install --cask signal
 brew install --cask arq
 brew install --cask authy
@@ -34,12 +31,10 @@ brew install --cask rekordbox
 brew install --cask discord
 brew install --cask ilok-license-manager
 brew install --cask calibre
-brew install --cask loopback
 brew install --cask nordvpn
 brew install --cask izotope-product-portal
 brew install --cask little-snitch
 brew install --cask micro-snitch
-brew install --cask zsa-wally
 brew install --cask bitwig-studio
 brew install --cask logitech-options
 
