@@ -38,6 +38,7 @@ brew install --cask micro-snitch
 brew install --cask bitwig-studio
 brew install --cask logitech-options
 brew install --cask 1password
+brew install --cask yubico-authenticator
 
 # install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
