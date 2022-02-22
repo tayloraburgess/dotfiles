@@ -25,7 +25,6 @@ brew install --cask iterm2
 brew install --cask firefox
 brew install --cask signal
 brew install --cask arq
-brew install --cask authy
 brew install --cask rectangle
 brew install --cask rekordbox
 brew install --cask discord
