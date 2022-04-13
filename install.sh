@@ -37,7 +37,6 @@ brew install --cask micro-snitch
 brew install --cask bitwig-studio
 brew install --cask logitech-options
 brew install --cask 1password
-brew install --cask elektron-transfer
 brew install --cask loopback
 
 # install nvm
