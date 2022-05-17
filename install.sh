@@ -34,7 +34,6 @@ brew install --cask nordvpn
 brew install --cask izotope-product-portal
 brew install --cask little-snitch
 brew install --cask micro-snitch
-brew install --cask bitwig-studio
 brew install --cask logitech-options
 brew install --cask 1password
 brew install --cask loopback
