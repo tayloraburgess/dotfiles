@@ -2,7 +2,7 @@
     helper = osxkeychain
 [user]
     name = Taylor Burgess
-    email = tayloraburgess@gmail.com
+    email = tayloraburgess@users.noreply.github.com
 [core]
     autocrlf = false
     excludesfile = ~/.gitignore_global
