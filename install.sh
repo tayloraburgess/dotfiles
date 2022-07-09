@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# set DIR variable to this directory
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-
-# set bash as the default shell
-chsh -s /bin/bash
-
 # rosetta
 sudo softwareupdate --install-rosetta
 
@@ -37,18 +31,9 @@ brew install --cask micro-snitch
 brew install --cask logitech-options
 brew install --cask 1password
 brew install --cask loopback
+brew install --cask obsidian
+brew install --cask transmission
+brew install --cask zoom
 
 # install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
-
-# defaults
-defaults write NSGlobalDomain KeyRepeat -int 1
-defaults write NSGlobalDomain InitialKeyRepeat -int 12
-defaults write com.apple.Dock autohide-delay -float 5.0
-
-# create links to dotfiles
-ln -s "${DIR}/.bash_profile" ~/.bash_profile
-ln -s "${DIR}/.bashrc" ~/.bashrc
-ln -s "${DIR}/.vimrc" ~/.vimrc
-ln -s "${DIR}/.gitconfig" ~/.gitconfig
-ln -s "${DIR}/.gitignore_global" ~/.gitignore_global

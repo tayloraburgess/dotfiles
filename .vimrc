@@ -22,9 +22,6 @@ colorscheme desert
 
 runtime macros/matchit.vim
 
-au BufEnter,BufRead *.ts,*.tsx set filetype=javascript
-
-
 "
 " Indent
 "
@@ -35,34 +32,3 @@ set autoindent
 if has ('autocmd')
     filetype plugin indent on
 endif
-
-"
-" Plugins
-"
-if !empty(glob('~/.vim/autoload/plug.vim'))
-    call plug#begin('~/.vim/plugged')
-    Plug 'ctrlpvim/ctrlp.vim'
-    Plug 'vim-airline/vim-airline'
-    Plug 'vim-airline/vim-airline-themes'
-    Plug 'tpope/vim-fugitive'
-    Plug 'mileszs/ack.vim'
-    call plug#end()
-endif
-
-
-"
-" ack
-"
-if executable('ag')
-  let g:ackprg = 'ag --vimgrep --hidden --ignore .git'
-endif
-
-"
-" CtrlP
-"
-let g:ctrlp_working_path_mode = 'r'
-
-"
-" Airline
-"
-let g:airline_theme='distinguished'
