@@ -34,6 +34,7 @@ brew install --cask loopback
 brew install --cask obsidian
 brew install --cask transmission
 brew install --cask zoom
+brew install --cask karabiner-elements
 
 # install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash

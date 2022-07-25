@@ -8,6 +8,7 @@ ln -s "${DIR}/.bash_profile" ~/.bash_profile
 ln -s "${DIR}/.bashrc" ~/.bashrc
 ln -s "${DIR}/.gitconfig" ~/.gitconfig
 ln -s "${DIR}/.gitignore_global" ~/.gitignore_global
+ln -s "${DIR}/karabiner.json" ~/.config/karabiner/karabiner.json
 
 # vim
 mkdir ~/.vim
@@ -20,4 +21,3 @@ defaults write com.apple.Dock autohide-delay -float 5.0
 
 # set bash as the default shell
 chsh -s /bin/bash
-
