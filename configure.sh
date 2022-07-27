@@ -8,7 +8,6 @@ ln -s "${DIR}/.bash_profile" ~/.bash_profile
 ln -s "${DIR}/.bashrc" ~/.bashrc
 ln -s "${DIR}/.gitconfig" ~/.gitconfig
 ln -s "${DIR}/.gitignore_global" ~/.gitignore_global
-ln -s "${DIR}/karabiner.json" ~/.config/karabiner/karabiner.json
 
 # vim
 mkdir ~/.vim
