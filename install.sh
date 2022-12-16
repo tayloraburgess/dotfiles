@@ -29,6 +29,7 @@ brew install --cask 1password
 brew install --cask obsidian
 brew install --cask transmission
 brew install --cask zoom
+brew install --cask betterdisplay
 
 # install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
