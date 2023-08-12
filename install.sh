@@ -15,6 +15,7 @@ brew install the_silver_searcher
 brew install pyenv
 brew install pyenv-virtualenv
 brew install sox
+brew install rectangle
 
 brew install --cask iterm2
 brew install --cask firefox
