@@ -24,11 +24,9 @@ brew install --cask arq
 brew install --cask discord
 brew install --cask calibre
 brew install --cask nordvpn
-brew install --cask logitech-options
 brew install --cask 1password
 brew install --cask obsidian
 brew install --cask transmission
-brew install --cask zoom
 brew install --cask betterdisplay
 brew install --cask google-chrome
 
