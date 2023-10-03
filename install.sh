@@ -27,7 +27,6 @@ brew install --cask nordvpn
 brew install --cask 1password
 brew install --cask obsidian
 brew install --cask transmission
-brew install --cask betterdisplay
 brew install --cask google-chrome
 
 # install nvm

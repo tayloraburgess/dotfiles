@@ -16,7 +16,6 @@ mkdir ~/.vim/swap
 # defaults
 defaults write NSGlobalDomain KeyRepeat -int 1
 defaults write NSGlobalDomain InitialKeyRepeat -int 12
-defaults write com.apple.Dock autohide-delay -float 5.0
 
 # set bash as the default shell
 chsh -s /bin/bash
