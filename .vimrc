@@ -18,7 +18,7 @@ set smartcase
 set termguicolors
 set directory^=$HOME/.vim/swap//
 set wildignore+=*/node_modules/*,*/.git/*
-colorscheme morning
+colorscheme desert
 
 runtime macros/matchit.vim
 
