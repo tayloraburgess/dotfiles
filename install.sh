@@ -16,6 +16,7 @@ brew install pyenv
 brew install pyenv-virtualenv
 brew install sox
 brew install rectangle
+brew install orion
 
 brew install --cask iterm2
 brew install --cask firefox
