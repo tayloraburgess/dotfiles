@@ -19,7 +19,6 @@ brew install rectangle
 brew install orion
 
 brew install --cask iterm2
-brew install --cask firefox
 brew install --cask signal
 brew install --cask arq
 brew install --cask discord
